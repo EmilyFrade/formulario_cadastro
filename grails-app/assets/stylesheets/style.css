@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #0030b9;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    margin: 2% 30%;
+    border: solid 5px #0030b9;
+    padding: 30px 50px;
+    border-radius: 25px;
+}
+
+h1 {
+    color: #0030b9;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+table {
+    font-size: 20px;
+    width: 100%;
+    padding: 0 10%;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: solid 1px #0030b9;
+    width: 400px;
+}
+
+.button {
+    background-color: #0030b9;
+    color: white;
+    width: 30%;
+    font-size: 15px;
+    margin: 0 15px;
+}
+
+.div-button {
+    text-align: center;
+}
+
+.label {
+    width: 5%;
+}
+
+@media only screen and (max-width: 1670px) {
+    main {
+        margin: 2% 25%;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    main {
+        margin: 2% 20%;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    main {
+        margin: 2% 15%;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    main {
+        margin: 4% 10%;
+    }
+
+    .button {
+        width: 50%;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    table {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    main {
+        padding: 30px 20px;
+    }
+}
