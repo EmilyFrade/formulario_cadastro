@@ -9,6 +9,6 @@
 </ul>
 
 <h4>Imagens:</h4>
-<img src="/grails-app/assets/images/img1.png" alt="Imagem do formulário">
-<img src="/grails-app/assets/images/img2.png" alt="Tela responsiva">
-<img src="/grails-app/assets/images/img3.png" alt="Console Grails">
+<img src="/grails-app/assets/images/img1.png" alt="Imagem do formulário" width="50%">
+<img src="/grails-app/assets/images/img2.png" alt="Tela responsiva" width="50%">
+<img src="/grails-app/assets/images/img3.png" alt="Console Grails" width="50%">
